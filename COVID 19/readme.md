@@ -1,3 +1,6 @@
+**DESDE QUE COMENZÓ LA PANDEMIA EXTRAEMOS, ORGANIZAMOS Y LIMPIAMOS DIARIAMENTE DECENAS DE SERIES DE DATOS. NECESITAMOS TU AYUDA PARA PODER SEGUIR HACIENDO ESTE TRABAJO. [SÚMATE A DATADISTA POR 36 EUROS/AÑO Y RECIBE NUESTRA NEWSLETTER](https://www.datadista.com/suscripcion/)**
+
+
 **LEA DETENIDAMENTE ESTE README ANTES DE UTILIZAR LOS DATOS**
 
 **Datasets relacionados con la incidencia de la COVID-19 en España realizado por DATADISTA, medio especializado en periodismo de investigación y datos para salir del ruido.**
@@ -51,6 +54,20 @@ Si quieres avisarnos de tus reutilizaciones o tienes cualquer duda, puedes poner
 | fallecimientos | Personas fallecidas acumuladas                                             | Accumulated deceased                                                                    | Número     | 7          |
 | ingresos_uci   | Casos acumulados que han precisado ingreso en UCI(**)                      | Accumulated cases that have required admission to the IC(**)                            | Número     | 7          |
 | hospitalizados | Casos acumulados que han precisado hospitalización (incluyen UCI)(**)      | Accumulated cases that have required hospitalization (include admitted   to the IC)(**) | Número     | 7          |
+
+<br><br>
+**Nombre del archivo:** [nacional_covid19_datos_sanidad_nueva_serie.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/old-series/nacional_covid19_datos_sanidad_nueva_serie.csv) <br>
+**Nivel administrativo:** Nacional<br>
+
+
+| Campo             | Descripción                                                       | Description                                                                       | Formato    | Ejemplo |
+|-------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|------------|---------|
+| fecha             | Fecha de publicación                                              | Publication date                                                              | YYYY-MM-DD | 2020-03-25 |
+| Casos | Casos confirmados acumulados                                      | Accumulated confirmed cases                                                        | Número     | 7       |
+| Fallecidos        | Personas fallecidas acumuladas                                    | Accumulated deceased                                                               | Número     | 7       |
+| Hospitalizados   | Casos acumulados que han precisado hospitalización (incluyen UCI) | Accumulated cases that have required hospitalization (include admitted to the IC) (Data obtained from the analysis of a daily variable percentage of cases reported) | Número     | 7       |
+| UCI    | Casos acumulados que han precisado ingreso en UCI                 | Accumulated cases that have required admission to the IC                          | Número     | 7       |
+<br><br>
 
 <br><br>
 **Nombre del archivo:** [nacional_covid19_rango_edad.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/old-series/nacional_covid19_rango_edad.csv) <br>
@@ -125,6 +142,10 @@ Description: Number of confirmed cases recorded recorded daily by Autonomous Com
 **Nombre del archivo:** [ccaa_vacunas.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_vacunas.csv) <br>
 **Nivel administrativo:** Comunidad Autónoma<br>
 **Descripción:** Evolución de las dosis de vacunas contra la COVID-10 entregadas, administradas, porcentaje sobre entregadas, fecha de publicación y fecha de la última vacuna registrada.
+<br><br>
+**Nombre del archivo:** [ccaa_vacunas_personas_institucionalizadas.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_vacunas_personas_institucionalizadas.csv) <br>
+**Nivel administrativo:** Comunidad Autónoma<br>
+**Descripción:** Evolución de la vacunación contra la COVID-10 entre la población institucionalizada
 <br><br>
 **Nombre del archivo:** [ccaa_ia14d.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_ia14d.csv]) <br>
 **Nivel administrativo:** Comunidad Autónoma<br>
